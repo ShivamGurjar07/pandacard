@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Card</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            padding: 20px;
+        }
+        h1, h2 {
+            font-family: 'Press Start 2P', cursive;
+            margin: 10px 0px;
+            padding: 10px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        h2 {
+            font-size: 24px;
+        }
+        .card-container {
+            width: 450px;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card-image {
+            width: 400px;
+            height: 300px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .card-title {
+            color: #a2a755;
+            font-family: 'Press Start 2P', cursive;
+            margin: 12px 0px;
+        }
+        .card-text {
+            margin: 10px 0;
+            font-size: large;
+        }
+        .card-year {
+            font-weight: bold;
+            margin: 16px 0;
+        }
+        .stars {
+            font-size: 24px;
+            margin: 5px 0px;
+         }
+    </style>
+</head>
+<body>
+
+    <h1>Title</h1>
+    <h2>Panda Card</h2>
+    <div class="card-container">
+        <img src="panda.png" alt="Panda" class="card-image">
+        <h3 class="card-title">John Doe</h3>        
+        <p class="card-text">Computer Science 1</p>
+        <p class="card-text">Computer Science 2</p>
+        <p class="card-year">Year: 3</p>
+        <div class="stars">
+            <span class="material-icons">star_border</span>
+            <span class="material-icons">star_border</span>
+            <span class="material-icons">star_border</span>
+            <span class="material-icons">star_border</span>
+            <span class="material-icons">star_border</span>
+        </div>
+    </div>
+</body>
+</html>
